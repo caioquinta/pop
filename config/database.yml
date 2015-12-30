@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: pop_development
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  host: localhost
+  password: postgres
+  username: postgres
+
+development:
+  <<: *default
+
+test:
+  adapter: postgresql
+  database: travis_ci_test
+  username: postgres
+  password: postgres
+
+production:
+  <<: *default
+  database: pop_production
+  username: pop
