@@ -4,7 +4,7 @@
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
-  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	  	<%= csrf_meta_tags %>
  		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,6 @@
 						<li><a href="/propostas/meus_apoios">Meus apoios</a></li>
 						<li><a href="/propostas/toppop">Top 10</a></li>
 						<li><a href="/propostas">(+) Votadas</a></li>
-						<li><a href="/propostas/top_subprefeitura">(+) <%= current_user.sub_prefeitura.nome%></a></li>
 						<li><a href="/propostas/novasdasemana">(+) Semana</a></li>
 					</ul>
 				</li>
@@ -65,7 +64,6 @@
 					<ul class="dropdown-menu" aria-labelledby="acoes_botao">
 						<li><%= link_to "Criar", new_proposta_path, :method => :get %></li>
 						<li><%= link_to "Apoiar", new_proposta_path, :method => :get %></li>
-						<li><%= link_to "Vetar", new_proposta_path, :method => :get %></li>
 					</ul>
 				</li>
 			</ul>
