@@ -11,7 +11,6 @@ class User < ActiveRecord::Base
   belongs_to :sub_prefeitura
   has_many :propostas
   has_many :votos
-  validates :sub_prefeitura, :presence => true
   has_many :acaos
 
   def count_user_actions

@@ -31,25 +31,6 @@
 
 				<div class="collapse" id="proposta_<%= proposta.id %>">
 			    	<div class="well"> 
-			    		<div class="row" >
-			    			<div class = "col-lg-2"> Rank: </div>
-			    			<div class = "col-lg-6 col-lg-offset-1">
-			    				<p>
-			    					<label><%= proposta.sub_prefeitura.nome %> </label>
-			    				</p>
-			    				<p>
-			    					<%=label_tag proposta.sub_prefeitura.cidade%>
-			    				</p>
-			    			</div>
-			    			<div class = "col-lg-2"> 
-			    				<p>
-			    					#<%=label_tag proposta.get_ranking_subprefeitura %>
-			    				</p>
-			    				<p>
-			    					#0<%#= index + offset %> 
-			    				</p>  
-			    			</div>
-						</div>
 			    		<hr>
 			    		<div class="row" >
 			    			<div class = "col-lg-2"> Tema </div>
@@ -65,18 +46,11 @@
 				<div class="row" >
 					<% ja_votou = current_user.usuario_realizou_acao_hoje( proposta) %>
 					<% esta_ativa =  proposta.esta_ativa%>
-					<div class="col-xs-6">
+					<div class="col-xs-12">
 						<%= button_to('Apoiar', votos_create_path(:proposta_id => proposta.id), :class => 'btn btn-warning -block btn-xs', :method => :post,  disabled: (ja_votou || !esta_ativa)) %>
 
 					</div>
-					<div class="col-xs-6">
-
-						<%= link_to('Vetar', new_veto_path(:proposta_id => proposta.id), :class => 'btn btn-danger -block btn-xs', :method => :get, disabled: (!esta_ativa)) %>
-					</div>
 				</div>
-				
-				
-			<!--<div class="col-xs-offset-4"><button type="button" class="btn btn-warning btn-xs">Veto</button></div-->
 			</li> 
 			<br/>
 

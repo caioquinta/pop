@@ -36,12 +36,12 @@ class Proposta < ActiveRecord::Base
     self.save
   end
 
-  def get_ranking_subprefeitura
-    self.sub_prefeitura.relaciona_propostas
-        .where('votos_count > ?', self.votos_count)
-        .order(:id)
-        .count + 1
-  end
+ #def get_ranking_subprefeitura
+ #   self.sub_prefeitura.relaciona_propostas
+ #       .where('votos_count > ?', self.votos_count)
+ #       .order(:id)
+ #       .count + 1
+ # end
 
   def get_emails_dos_apoiadores
     self.votos.map{|v| v.user.email}

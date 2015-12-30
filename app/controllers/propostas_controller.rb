@@ -47,10 +47,6 @@ class PropostasController < ApplicationController
 		@list_semana = (Proposta.order_mais_da_semana)[0..9]
 	end
 
-  	def top_subprefeitura 
-    	@list = (current_user.sub_prefeitura.ordena_propostas_subprefeitura).page(params[:page]).per(10)
-  	end
-
 private
     # Using a private method to encapsulate the permissible parameters
     # is just a good pattern since you'll be able to reuse the same
