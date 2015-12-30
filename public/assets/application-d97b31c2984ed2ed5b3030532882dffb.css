@@ -1,0 +1,632 @@
+/* line 6, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+#TituloCadastro {
+  font-size: 2.5em;
+}
+
+/* line 9, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+#NomeForum {
+  font-size: 2em;
+}
+
+/* line 14, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+.textoEstaticoCadastro {
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 21, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+button {
+  width: 150px;
+  margin: 20px;
+}
+
+/* line 27, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+#cadastroForm {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 1920px) {
+  /* line 33, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  #logo {
+    width: 200px;
+    margin: 50px auto;
+  }
+
+  /* line 37, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  input {
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 44, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  #logo {
+    width: 150px;
+    margin: 50px auto;
+  }
+
+  /* line 48, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  input {
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 54, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  #logo {
+    width: 100px;
+  }
+
+  /* line 58, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  #NomeForum {
+    font-size: 1em;
+  }
+
+  /* line 62, /home/caio/pop/app/assets/stylesheets/interface.css.scss */
+  #TituloCadastro {
+    font-size: 1.5em;
+  }
+}
+/* line 5, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+#TituloNovaProposta {
+  font-size: 2.5em;
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 15, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+button {
+  width: 150px;
+  margin: 20px;
+}
+
+/* line 20, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+#NovaPropostaForm {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* line 25, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+#NovaPropostaForm textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 330px) {
+  /* line 32, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+  #NovaPropostaForm {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  /* line 40, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+  input {
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 48, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+  input {
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 55, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+  #TituloNovaProposta {
+    font-size: 1.5em;
+  }
+}
+/* line 61, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+.container {
+  width: 100% !important;
+}
+
+/* line 65, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+.btn-warning {
+  background-color: #FFF !important;
+  border-color: #FFF !important;
+  color: #333 !important;
+}
+
+/* line 70, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+.btn-danger {
+  background-color: #FFF !important;
+  border-color: #FFF !important;
+  color: #333 !important;
+}
+
+/* line 76, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+#listaPropostaTitulo {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 82, /home/caio/pop/app/assets/stylesheets/propostas.css.scss */
+  #listaPropostaTitulo {
+    font-size: 1.5em;
+  }
+}
+/* line 1, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 23, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, /home/caio/pop/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /home/caio/pop/app/assets/stylesheets/static.css.scss */
+#TituloTermosUso {
+  font-size: 2.5em;
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 15, /home/caio/pop/app/assets/stylesheets/static.css.scss */
+  #TituloTermosUso {
+    font-size: 1.5em;
+  }
+}
+/* line 5, /home/caio/pop/app/assets/stylesheets/static_pages.css.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 9, /home/caio/pop/app/assets/stylesheets/static_pages.css.scss */
+#logo_esc_gov {
+  width: 10em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+/* line 16, /home/caio/pop/app/assets/stylesheets/static_pages.css.scss */
+#logo_pop {
+  width: 12em;
+  margin: auto;
+  display: block;
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+
+/* line 25, /home/caio/pop/app/assets/stylesheets/static_pages.css.scss */
+#logo_indx {
+  display: block;
+  margin: 0 auto;
+  width: 8em;
+}
+
+/* line 31, /home/caio/pop/app/assets/stylesheets/static_pages.css.scss */
+#welcome_text {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 17em;
+  margin-bottom: 8em;
+  font-size: 115%;
+  font-weight: bold;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+body{
+	
+	height: 100%;
+	background-color: white !important;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		background-color: white !important;
+	}
+}
+
+#content-interno{
+	margin: 12em 25% 0 25% !important;
+	background-color: white !important;
+}
+
+#content-interno-sem-navbar{
+	margin: 3em 25% 0 25% !important;
+	background-color: white !important;
+	height: 55em;
+}
+
+@media screen and (max-width: 473px) {
+	#content-interno-sem-navbar {
+		margin: 3em 0% 0 0% !important;
+	}
+}
+
+#v-v-rapidao {
+	margin-top: 1.4em;
+}
+
+@media screen and (max-width: 473px) {
+	#content-interno {
+		margin: 25em 25% 0 25% !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#content-interno {
+		margin: 12em 0% 0 0% !important;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	#content-interno {
+		margin: 12em 0% 0 0% !important;
+	}
+}
+
+#salsichaMenu {
+	width: 3em;
+	height: 3em;
+	margin: 1em;
+	background-color: #FFF;
+	color: #EC971F;
+	border-style: none;
+}
+
+#statusNavBar {
+	height: 2em;
+	margin-bottom: 1.25em;
+	background-color: #FFEB9D;
+	color: #EC971F;
+	padding-top: 0em;
+	border-style: none;
+	padding-left: 2em;
+}
+
+#masterPageNavBar {
+	background-color: #EC971F;
+	border-style: none;
+}
+
+#popBrand {
+	color: #FFF;
+	font-size: 2em;
+}
+
+.navbar-header {
+	padding: 0.7em;
+	font-weight: bold;
+}
+
+#botaoNovaPropostaNavBar {
+	margin-top: 0.3em;
+	/*background-color: #EC971F;*/
+	background-color: #FFF;
+	color: #333;
+	height: 2.5em;
+	width:8em;
+	font-size: 1em;
+	border-radius: 0px;
+}
+
+
+#botaoVetarNavBar {
+	margin-top: 1em;
+	background-color: #EC971F;
+	color: white;
+	border-color: white;
+	height: 2.5em;
+	width:8em;
+	font-size: 1em;
+	border-radius: 0px;
+}
+
+
+#botaoApoiarNavBar {
+	margin-top: 1em;
+	background-color: #EC971F;
+	color: white;
+	border-color: white;
+	height: 2.5em;
+	width:8em;
+	font-size: 1em;
+	border-radius: 0px;
+}
+
+.btn .btn-primary {
+  background-color: #F89C3A;
+}
+
+.navbar {
+	margin-bottom: 0em !important;
+}
+.container-fluid ul.nav.navbar-nav.navbar-left {
+	margin-bottom: 0px;
+}
+.remove-margin-bottom {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#botaoNovaPropostaNavBar:hover {
+	background-color: white;
+	color: #EC971F;
+}
+
+#botaoApoiarNavBar:hover {
+	background-color: white;
+	color: #EC971F;
+}
+
+#botaoVetarNavBar:hover {
+	background-color: white;
+	color: #EC971F;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+
+.botoes-acao-navbar {
+	width:8em;
+	margin-top: 1em;
+	background-color: #EC971F;
+	color: white;
+	border-color: white;
+	height: 2.5em;
+	font-size: 1.25em;
+	border-radius: 0px;
+}
+
+
+.navbar-right {
+float: right!important;
+}
+
+
+.navbar > .alert {
+	margin-bottom: 0px !important;
+	padding: 5px !important;
+	text-align: center;
+}
+
+#botoesAcaoNavBar {
+	margin-top: 0px;
+	margin-right: 30%;
+}
+
+@media screen and (max-width: 1130px) {
+	#botoesAcaoNavBar {
+		margin-right:23%;
+	}
+}
+
+
+@media screen and (max-width: 832px) {
+	#botoesAcaoNavBar {
+		margin-right:17%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#botoesAcaoNavBar {
+		margin-right:0%;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	#botoesAcaoNavBar {
+		margin-right:20%;
+	}
+}
+
+@media screen and (max-width: 402px) {
+	#botoesAcaoNavBar {
+		margin-right:0%;
+	}
+}
+
+.navbar-secundaria {
+	margin-bottom: 0px !important;
+	color: #fff;
+	border-radius: 0px;
+	background-color: #808080;
+	text-align: center;
+	border-width: 0px;
+}
+
+@media screen and (max-width: 767px) {
+
+	#right-dropdown {
+		position: absolute !important;
+		left: -6em !important;
+		box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+		background-color: #FFF;
+	}
+
+	#left-dropdown {
+		position: absolute !important;
+		box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+		background-color: #FFF;
+	}
+
+	#left-dropdown > li > a {
+		color: #262626;
+	}
+
+	#right-dropdown > li > a {
+		color: #262626;
+	}
+}
+
+#acoes_navbar {
+	margin: 0;
+	margin-top: 1.5em;
+	position: relative;
+}
+
+#acoes_botao {
+	float: right;
+	border-radius: 4px;
+	border-style: none;
+}
+#acoes_navbar .dropdown.open .dropdown-menu {
+	width: auto !important;
+	text-align: center !important;
+	height: auto !important;
+	background-color: white;
+	position: absolute !important;
+	margin-top: 0.8em !important;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176) !important;
+	left: -6px;
+}
+
+@media screen and (max-width: 462px) {
+	#acoes_botao {
+		width: 5em;
+	}
+	#acoes_navbar .dropdown.open .dropdown-menu {
+		width: auto !important;
+		min-width: 2em !important;
+		text-align: center !important;
+		height: auto !important;
+		background-color: white;
+		position: absolute !important;
+		margin-top: 0.8em !important;
+		box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176) !important;
+		left: -6px;
+	}
+
+}
+@media screen and (max-width: 379px) {
+	#acoes_botao {
+		width: 100%;
+		margin: 0 auto 1em;
+	}
+
+	#acoes_navbar {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#acoes_navbar .dropdown {
+		width: 100%;
+	}
+
+	#acoes_navbar .dropdown .open {
+		width: 100%;
+	}
+
+	#acoes_navbar .dropdown.open .dropdown-menu {
+		width: 100% !important;
+		text-align: center !important;
+		margin-top: 0.8em !important;
+		margin-bottom: 1em !important;
+		height: auto !important;
+		background-color: white;
+		box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176) !important;
+	}
+
+}
+
+@media screen and (max-width: 279px) {
+	.navbar-header {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.navbar-brand {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+}
