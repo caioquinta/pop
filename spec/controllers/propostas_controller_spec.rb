@@ -133,7 +133,7 @@ describe PropostasController, type: :controller do
         sign_in current_user
         get :top_subprefeitura
     end
-    it 'o usuário pode acessar a lista de propostas mais votadas da sua subprefeitura' do
+    xit 'o usuário pode acessar a lista de propostas mais votadas da sua subprefeitura' do
       response.should be_success
     end
   end
