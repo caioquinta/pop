@@ -45,6 +45,8 @@ gem 'spring', '~> 1.3.6',       group: :development
 
 gem 'devise', git: 'https://github.com/plataformatec/devise'
 
+gem 'haml-rails'
+
 group :development do
   gem "better_errors"
 end
