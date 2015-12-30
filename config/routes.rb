@@ -25,16 +25,11 @@ Rails.application.routes.draw do
  post 'votos/create'
 
  #devise_for :users
-  devise_for :users, controllers: { registrations: "users/registrations" }
-
- #devise_for :users, :controllers => { :registrations => "registrations" }
- #get 'interface/index'
+ devise_for :users, controllers: { registrations: "users/registrations" }
 
  get 'static/index'
  get 'static/termos_uso'
  get 'static/fale_conosco'
-
- #get 'static_pages/welcome'
  root 'static#welcome'
 
  # The priority is based upon order of creation: first created -> highest priority.
