@@ -134,6 +134,10 @@ body{
 	border-radius: 0px;
 }
 
+.btn .btn-primary {
+  background-color: #F89C3A;
+}
+
 .navbar {
 	margin-bottom: 0em !important;
 }

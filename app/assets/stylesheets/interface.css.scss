@@ -3,28 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#TituloCadastro {
+.title {
     font-size: 2.5em;
 }
 #NomeForum {
     font-size: 2em;
 }
 
-.textoEstaticoCadastro {
+
+.textoEstatico {
 	text-align: center;
 	padding-right: 25px;
 	padding-left: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
-
-
 
 button {
 	width: 150px;
 	margin: 20px;
 }
-
-
 
 
 #cadastroForm {
@@ -62,11 +59,9 @@ button {
 		font-size: 1em;
 	}
 
-	#TituloCadastro {
+	.title {
 		font-size: 1.5em;
 	}
 
-	
 }
-	
 
