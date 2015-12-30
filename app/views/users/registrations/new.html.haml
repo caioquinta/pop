@@ -1,0 +1,25 @@
+- content_for :title do
+  POP | Cadastrar
+%div
+  %img#logo.img-responsive{:src => "/assets/logo_pop.jpg"}/
+.title.textoEstatico
+  Cadastro
+#NomeForum.textoEstatico
+  %h4 Versão aberta para testes
+= form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: { class: 'form-horizontal', id: 'LoginForm'}) do |f|
+  = devise_error_messages!
+  .form-group
+    .col-sm-4.col-sm-offset-4
+      = f.email_field :email, :placeholder => "E-mail", :autofocus => true, class: 'form-control'
+  .form-group
+    .col-sm-4.col-sm-offset-4
+      = f.password_field :password, :placeholder => "Senha", class: 'form-control'
+  .form-group
+    .col-sm-4.col-sm-offset-4
+      = f.password_field :password_confirmation, :placeholder => "Corfirme sua senha", class: 'form-control'
+  .form-group
+    .col-sm-offset-4.col-sm-4
+      = button_to('Cadastrar', new_user_registration_path, :class => 'btn btn-default center-block', :method => :get)
+  .form-group
+    .col-sm-offset-4.col-sm-4
+      = button_to( 'Login',  new_user_session_path , :class => 'btn btn-default center-block', :method => :get, id: "botaoVoltarCadastro")
